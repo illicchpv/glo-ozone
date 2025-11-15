@@ -1,3 +1,5 @@
+[github интенсива](https://github.com/illicchpv/glo-ozone)
+
 ## Урок 1. Подключение JavaScript, модальное окно, Webpack [ссылка](https://glo-academy.org/next_lesson_1)
 
 ### Исходники [(скачиваются сразу при кликие)](https://fs19.getcourse.ru/fileservice/file/download/a/12250/sc/181/h/60d60cf171c4eaee513801a2d7c9c643.zip)
