@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "[github интенсива](https://github.com/illicchpv/glo-ozone)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "webpack --mode production",
-    "watch": "webpack --watch"
+    "build:prod": "webpack --mode production",
+    "watch": "webpack --watch",
+    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/illicchpv/glo-ozone/issues"
   },
