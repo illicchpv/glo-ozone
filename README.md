@@ -13,6 +13,15 @@
   - Браузерные события  [ссылка](https://learn.javascript.ru/introduction-browser-events)
   - Поиск: getElement*, querySelector*  [ссылка](https://learn.javascript.ru/searching-elements-dom)
 
+  - webpack [ссылка](https://webpack.js.org/)
+      - [getting-started](https://webpack.js.org/guides/getting-started/)
+      ```cmd
+        > npm init -y
+        > npm install webpack webpack-cli --save-dev
+        > npm i
+      ```
+
+
 ### Задание
   скачать исходники под уроком и повторить код
 

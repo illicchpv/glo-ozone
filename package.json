@@ -1,0 +1,26 @@
+{
+  "name": "glo-ozone",
+  "version": "1.0.0",
+  "description": "[github интенсива](https://github.com/illicchpv/glo-ozone)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illicchpv/glo-ozone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/illicchpv/glo-ozone/issues"
+  },
+  "homepage": "https://github.com/illicchpv/glo-ozone#readme",
+  "devDependencies": {
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
