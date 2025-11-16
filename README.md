@@ -26,3 +26,21 @@
   скачать исходники под уроком и повторить код
 
 ---  
+
+### Урок 2. Получение данных из файлов БД [ссылка](https://glo-academy.org/next_lesson_2)
+
+#### Материалы для урока (скачиваются при клике)  [ссылка](https://fs17.getcourse.ru/fileservice/file/download/a/12250/sc/258/h/6217cf4cd75599eb5a4eaf04e7e3f637.zip)
+
+JSONPlaceholder [ссылка](https://jsonplaceholder.typicode.com/)
+JSON-server [ссылка](https://github.com/typicode/json-server)
+Firebase [ссылка](https://console.firebase.google.com/u/1/)
+
+```js
+"liveServer.settings.ignoreFiles": [
+    "db/db.json"
+]
+```
+
+#### Задание
+
+Повторить код за уроком
