@@ -1,13 +1,21 @@
 import getData from './getData.js';
+import postData from './postData.js';
 
 const second = () => {
   const cartBtn = document.getElementById('cart');
-  // console.log('second cartBtn: ', cartBtn);
-  // const res = getData('second');
-  // console.log('second getData res: ', res);
 
   getData('second').then((data) => {
-    console.log('second getData data: ', data);
+    console.log('second getData: ', data);
+  });
+
+  // создание товара и получение обновленного списка
+  cartBtn.addEventListener('click', () => {
+    postData().then((data) => {
+      console.log('second postData data: ', data);
+      getData('second').then((data) => {
+        console.log('second1111 getData data: ', data);
+      });
+    });
   });
 };
 

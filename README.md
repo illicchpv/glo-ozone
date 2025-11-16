@@ -33,7 +33,21 @@
 
 JSONPlaceholder [ссылка](https://jsonplaceholder.typicode.com/)
 JSON-server [ссылка](https://github.com/typicode/json-server)
+  ```cmd
+    > npm install -g json-server
+    > npm i json-server@0.17.4
+    > json-server --watch db/db.json --port 3000
+  ```
+  ??? http://localhost:3000/profile
+  ??? http://localhost:3000/comments
+  + http://localhost:3000/goods
+
+
 Firebase [ссылка](https://console.firebase.google.com/u/1/)
+
+https://mytest-4d899-default-rtdb.firebaseio.com/goods.json
+
+
 
 ```js
 "liveServer.settings.ignoreFiles": [
