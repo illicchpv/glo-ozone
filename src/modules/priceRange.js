@@ -2,7 +2,6 @@ import getData from "./getData.js";
 import renderGoods from "./renderGoods.js";
 import { priceRangeFilter } from "./filter.js";
 
-// filter-price_range
 const priceRange = () => {
   const priceRange = document.querySelector('.filter-price_range');
   const priceMin = min

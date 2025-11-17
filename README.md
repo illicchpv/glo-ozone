@@ -47,8 +47,11 @@ Firebase [ссылка](https://console.firebase.google.com/u/1/)
 
 https://mytest-4d899-default-rtdb.firebaseio.com/goods.json
 
+управление базой данных goods [ссылка
+](https://console.firebase.google.com/u/1/project/mytest-4d899/database/mytest-4d899-default-rtdb/data/~2F)
 
 
+добавить в файл settings.json
 ```js
 "liveServer.settings.ignoreFiles": [
     "db/db.json"
