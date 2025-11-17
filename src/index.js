@@ -1,8 +1,13 @@
 import cart from './modules/cart.js';
-import second from './modules/second.js';
+import load from './modules/load.js';
+import search from './modules/search.js';
+import catalog from './modules/catalog.js';
 // import testDb from './modules/testDb.js';
 
 cart();
-second();
+load();
+search();
+catalog();
+
 // testDb();
 

@@ -1,11 +1,10 @@
 const renderGoods = (goods) => {
-  console.log('renderGoods: ', goods);
+  console.log('goods: ', goods);
 
   const goodsWrapper = document.querySelector('.goods');
 
   goodsWrapper.innerHTML = '';
   goods.forEach((good) => {
-    console.log('good: ', good);
     goodsWrapper.insertAdjacentHTML('beforeend', `
       <div class="col-12 col-md-6 col-lg-4 col-xl-3">
         <div class="card">
