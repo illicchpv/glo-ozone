@@ -10,7 +10,7 @@ const getData = (searchText) => {
   // https://mytest-4d899-default-rtdb.firebaseio.com/goods.json?startAt="${searchText}"`
   // не работает :( const url = `https://mytest-4d899-default-rtdb.firebaseio.com/goods.json?orderBy="title"&startAt="${searchText}"`;
   const url = `https://mytest-4d899-default-rtdb.firebaseio.com/goods.json`;
-  console.log('getData url: ', url);
+  // console.log('getData url: ', url);
   const res = fetch(url) //('https://mytest-4d899-default-rtdb.firebaseio.com/goods.json')
     .then((response) => {
       // console.log(response);
