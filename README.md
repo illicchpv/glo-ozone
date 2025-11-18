@@ -50,6 +50,9 @@ https://mytest-4d899-default-rtdb.firebaseio.com/goods.json
 управление базой данных goods [ссылка
 ](https://console.firebase.google.com/u/1/project/mytest-4d899/database/mytest-4d899-default-rtdb/data/~2F)
 
+управление пользователями [ссылка
+](https://console.firebase.google.com/project/mytest-4d899/settings/iam)
+
 
 добавить в файл settings.json
 ```js
@@ -79,3 +82,18 @@ https://mytest-4d899-default-rtdb.firebaseio.com/goods.json
 Реализовать фильтрацию товаров по цене
 
 
+---
+
+### Урок 4. Корзина товаров [ссылка](https://glo-academy.org/next_lesson_4)
+
+Реализуем корзину товаров. Реализуем отправку данных корзины
+
+#### Задание
+
+Повторить код за уроком
+
+#### Усложнённое
+Реализовать подсчет товаров в корзине. Результат выводить вот в эту иконку возле корзины.
+Значение должно подсчитываться при загрузке страницы, при добавлении товара в корзину и 
+при удалении товара из корзины. Так же обнуляться при отправке данных.
+![alt text](image.png)
